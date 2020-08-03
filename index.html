@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width:device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+		<nav>
+			<img class="logo" src="https://s3.amazonaws.com/pmgr-stg/projects/2919/project-logo.png?1462308361"/>
+			<select class="selectGreen" id="order">
+				<option>Order by</option>
+				<option>Ascending</option>
+				<option>Descending</option>
+			</select>
+			<select id="category">
+				<option>Sort by</option>
+				<option>Name</option>
+				<option>Score</option>
+				<option>Platform</option>
+			</select>
+		</nav>
+		<br/>
+		<hr class="nav_line"/>
+		<div class="games_container">
+			<input class="search" id="searchByName" placeholder="Search games"/>
+			<div class="game_details" id="game_info"></div>
+		<script src="code.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </body>
+</html>
